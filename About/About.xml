@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rimsec Security: Vanilla Weapons Expanded - Heavy Weapons and Heavy Melee Weapons support</name>
+	<author>ZzZombo</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>shakesthespeare.RimsecSecurity</packageId>
+			<displayName>Rimsec Security</displayName>
+			<downloadUrl>https://github.com/iforgotmysocks/RimsecSecurity/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2323762086</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VWEHW</packageId>
+			<displayName>Vanilla Weapons Expanded - Heavy Weapons</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>PitchStone.HeavyMeleeWeapons</packageId>
+			<displayName>Heavy Melee Weapons</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2418407014</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>shakesthespeare.RimsecSecurity</li>
+		<li>VanillaExpanded.VWEHW</li>
+		<li>VanillaExpanded.PitchStone.HeavyMeleeWeapons</li>
+	</loadAfter>
+	<packageId>zzzombo.commission001-RimsecSecurity</packageId>
+	<description>Add support for Vanilla Weapons Expanded - Heavy Weapons and Heavy Melee Weapons to Rimsec Security.</description>
+</ModMetaData>

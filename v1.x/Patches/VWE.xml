@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[contains("-VWE_Gun_Autocannon- -VWE_Gun_HandheldMortar- -VWE_Gun_HeavyFlamer- -VWE_Bullet_HeavyFlamer- -VWE_Gun_SwarmMissileLauncher- -VWE_Gun_UraniumSlugRifle-", concat('-', defName, '-'))]/weaponTags</xpath>
+					<value>
+						<li>RSSHAG1</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
