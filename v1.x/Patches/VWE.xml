@@ -3,14 +3,15 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
+			<li>Heavy Melee Weapons</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
+			<!-- success>Always</success -->
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[contains("-VWE_Gun_Autocannon- -VWE_Gun_HandheldMortar- -VWE_Gun_HeavyFlamer- -VWE_Bullet_HeavyFlamer- -VWE_Gun_SwarmMissileLauncher- -VWE_Gun_UraniumSlugRifle-", concat('-', defName, '-'))]/weaponTags</xpath>
+					<xpath>/Defs/ThingDef/modExtensions/li[@Class="HeavyWeapons.HeavyWeapon"]/supportedArmors</xpath>
 					<value>
-						<li>RSSHAG1</li>
+						<li>VWEPatch_SentinelHeavyFrame</li>
 					</value>
 				</li>
 			</operations>

@@ -31,6 +31,6 @@
 		<li>VanillaExpanded.VWEHW</li>
 		<li>VanillaExpanded.PitchStone.HeavyMeleeWeapons</li>
 	</loadAfter>
-	<packageId>zzzombo.commission001-RimsecSecurity</packageId>
-	<description>Add support for Vanilla Weapons Expanded - Heavy Weapons and Heavy Melee Weapons to Rimsec Security.</description>
+	<packageId>ZzZombo.RimsecSecurityPatch</packageId>
+	<description>Adds support for Vanilla Weapons Expanded - Heavy Weapons and Heavy Melee Weapons to Rimsec Security Sentinels so that hey can now equip the heavy weapons from these mods. The mod can be used w/o Heavy Melee Weapons, although mod managers and Steam will yell at you, but this is fine if you do not run with that mod.</description>
 </ModMetaData>

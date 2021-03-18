@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelBase">
+		<defName>VWEPatch_SentinelHeavyFrame</defName>
+		<label>exoskeleton frame</label>
+		<description>A wearable frame, powered by a system of hydraulics, electric motors, levers and pneumatics, designed to permit quick movement. Whilst it does not provide any protection, it allows the user to walk faster, lift heavier objects and maintain balance more easily.</description>
+		<techLevel>Industrial</techLevel>
+		<costList></costList>
+		<graphicData>
+			<texPath>Things/Apparel/Exoframe/ExoFrame</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<Mass>6</Mass>
+			<Flammability>0</Flammability>
+			<EquipDelay>12</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>Exosuit</li>
+				<li>ExosuitFrame</li>
+			</tags>
+		</apparel>
+		<tradeTags></tradeTags>
+	</ThingDef>
+</Defs>
